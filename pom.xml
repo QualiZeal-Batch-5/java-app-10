@@ -94,7 +94,7 @@
 					<artifactId>exec-maven-plugin</artifactId>
 					<version>3.4.1</version>
 					<configuration>
-						<mainClass>com.qualizeal.App</mainClass>
+						<mainClass>com.qualizeal.javaapp10.operation.App</mainClass>
 					</configuration>
 				</plugin>
 			</plugins>
