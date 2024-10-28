@@ -2,17 +2,17 @@ package com.qualizeal.javaapp10.operation;
 
 public class ArmstrongNumber {
 	public String defineArmstrongNumber() {
-		return "Given Number is equal to the sum of its own digits each raised to the power of the number of digits.";
+		return "Amstrong Number is a number that is equal to the sum of its digits each raised to the power of the number of digits. ";
 	}
 
-	public String verifyIfNumberIsArmstrongOrNot(int number1) {
+	public String verifyIfNumberIsArmstrongOrNot(int num1) {
 
-		if (number1 < 0) {
+		if (num1 < 0) {
 			return "-1";
-		} else if (number1 == 0) {
+		} else if (num1 == 0) {
 			return "-2";
 		} else {
-			int temp = number1;
+			int temp = num1;
 			int numOfDigits = 0;
 
 			while (temp > 0) {
@@ -20,7 +20,7 @@ public class ArmstrongNumber {
 				numOfDigits++;
 			}
 
-			temp = number1;
+			temp = num1;
 			int sum = 0;
 
 			while (temp > 0) {
@@ -35,7 +35,7 @@ public class ArmstrongNumber {
 				temp /= 10;
 			}
 
-			if (sum == number1) {
+			if (sum == num1) {
 				return "Armstrong Number";
 			} else {
 				return "Not an Armstrong Number";
