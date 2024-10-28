@@ -1,0 +1,67 @@
+DEVELOP A JAVA APPLICATION TO PERFORM THE BELOW-MENTIONED TASK BY FOLLOWING THE BELOW-MENTIONED GUIDELINES.
+
+TASK:
+Perform an operation to identify if a particular number is an ARMSTRONG NUMBER or not.
+
+GUIDELINES:
+1. Define a package named com.qualizeal.javaapp10.operation in the application.
+2. Define a class named ArmstrongNumber in the above-mentioned package.
+3. Define a method named defineArmstrongNumber and return the definition of Armstrong number as a text.
+4. Define a method named verifyIfNumberIsArmstrongOrNot in the above-mentioned class for performing the task.
+5. The above-mentioned method:
+	a) must be accessible to any class from any package.
+	b) must contain a parameter of number type with a range from 0 to 2,147,483,647.
+	c) must perform the task and return the result as a text.
+	d) must perform the task without using any pre-defined class from java library.
+	e) must return -1 if the value passed as a parameter is a negative number.
+	f) must return -2 if the value passed as a parameter is 0.
+	
+IMPORTANT NOTE:
+1. Use the program class named App available in the application to execute your code.
+2. Sample inputs with expected outputs are given below for your reference which you can use to validate your logic in the code. 
+3. Once finished with the tasks, run the unit tests to verify if you have completed the tasks successfully as well as followed the guidelines.
+4. You can use print statements for your reference while writing the code but do remember to remove them before submitting the code.
+5. Only the task and implementation of guidelines are considered for evaluation and not the code in the program class.
+6. Once finished with the application development, push the code back to the remote repository from where you have cloned the application.
+7. Do remember to push your code to the branch with your name and not the main branch.
+
+SAMPLE INPUT 1:
+153
+EXPECTED OUTPUT 1:
+Armstrong Number
+
+SAMPLE INPUT 2:
+51
+EXPECTED OUTPUT 2:
+Not an Armstrong Number
+
+SAMPLE INPUT 3:
+1634
+EXPECTED OUTPUT 3:
+Armstrong Number
+
+SAMPLE INPUT 4:
+1504
+EXPECTED OUTPUT 4:
+Not an Armstrong Number
+
+SAMPLE INPUT 5:
+8208
+EXPECTED OUTPUT 5:
+Armstrong Number
+
+SAMPLE INPUT 6:
+5105
+EXPECTED OUTPUT 6:
+Not an Armstrong Number
+
+
+SAMPLE INPUT 7:
+-10
+EXPECTED OUTPUT 7:
+-1
+
+SAMPLE INPUT 8:
+0
+EXPECTED OUTPUT 8:
+-2
