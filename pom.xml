@@ -97,6 +97,14 @@
 						<mainClass>com.qualizeal.App</mainClass>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>3.4.1</version>
+					<configuration>
+						<mainClass>com.qualizeal.App</mainClass>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
