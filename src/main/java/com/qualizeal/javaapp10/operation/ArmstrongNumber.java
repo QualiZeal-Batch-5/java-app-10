@@ -19,33 +19,19 @@ public class ArmstrongNumber {
 			
 		  } 
 		  else {
+			  
+			String s =  String.valueOf(number1);
+			int len  = s.length(),temp = number1;
+			double sum = 0.0;
 			
-			int temp = number1;
-			int numOfDigits = 0;
+            while(temp != 0) {
+            	
+                 int rem = temp % 10;
+                 sum += Math.pow(rem, len);
+                 temp /= 10;
+            }
 
-			while (temp > 0) {
-				
-				temp /= 10;
-				numOfDigits++;
-		  }
-
-			temp = number1;
-			int sum = 0;
-
-		  while (temp > 0) {
-				
-				int digit = temp % 10;
-				int power = 1;
-
-				for (int i = 0; i < numOfDigits; i++) {
-					power *= digit;
-			    }
-
-				sum += power;
-				temp /= 10;
-		   }
-
-			if (sum == number1) {
+			if ((int)sum == number1) {
 		
 				return "Armstrong Number";
 				
